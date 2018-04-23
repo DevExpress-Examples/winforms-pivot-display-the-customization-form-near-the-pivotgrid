@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StandaloneCustForm", "StandaloneCustForm\StandaloneCustForm.vbproj", "{F67C5109-9898-49CE-8C12-132AA1BEC2FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F67C5109-9898-49CE-8C12-132AA1BEC2FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F67C5109-9898-49CE-8C12-132AA1BEC2FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F67C5109-9898-49CE-8C12-132AA1BEC2FA}.Debug|x86.ActiveCfg = Debug|x86
+		{F67C5109-9898-49CE-8C12-132AA1BEC2FA}.Debug|x86.Build.0 = Debug|x86
+		{F67C5109-9898-49CE-8C12-132AA1BEC2FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F67C5109-9898-49CE-8C12-132AA1BEC2FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F67C5109-9898-49CE-8C12-132AA1BEC2FA}.Release|x86.ActiveCfg = Release|x86
+		{F67C5109-9898-49CE-8C12-132AA1BEC2FA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
