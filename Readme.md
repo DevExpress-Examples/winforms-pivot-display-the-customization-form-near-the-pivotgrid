@@ -14,4 +14,4 @@ The form's appearance is specified with the [PivotGridOptionsCustomization.Custo
 
 Call the [PivotGridControl.FieldsCustomization](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.FieldsCustomization.overloads) method to show the form.
 
-![screenshot](https://github.com/DevExpress-Examples/how-to-display-the-customization-form-near-the-pivotgridcontrol-e4572/blob/13.1.4%2B/images/screenshot.png)
+![screenshot](https://github.com/DevExpress-Examples/how-to-display-the-customization-form-near-the-pivotgridcontrol-e4572/blob/18.2.4%2B/images/screenshot.png)
