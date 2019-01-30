@@ -1,4 +1,4 @@
-﻿namespace StandaloneCustForm {
+﻿namespace StandaloneCustomForm {
     partial class Form1 {
         /// <summary>
         /// Required designer variable.
@@ -26,13 +26,13 @@
             this.components = new System.ComponentModel.Container();
             this.pivotGridControl1 = new DevExpress.XtraPivotGrid.PivotGridControl();
             this.salesPersonBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.nwindDataSet = new StandaloneCustForm.nwindDataSet();
+            this.nwindDataSet = new StandaloneCustomForm.nwindDataSet();
             this.fieldCountry1 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldProductName1 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldCategoryName1 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldExtendedPrice1 = new DevExpress.XtraPivotGrid.PivotGridField();
             this.fieldSalesPerson1 = new DevExpress.XtraPivotGrid.PivotGridField();
-            this.salesPersonTableAdapter = new StandaloneCustForm.nwindDataSetTableAdapters.SalesPersonTableAdapter();
+            this.salesPersonTableAdapter = new StandaloneCustomForm.nwindDataSetTableAdapters.SalesPersonTableAdapter();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesPersonBindingSource)).BeginInit();
@@ -139,7 +139,7 @@
             this.ClientSize = new System.Drawing.Size(683, 390);
             this.Controls.Add(this.splitContainerControl1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "StandaloneCustomForm";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pivotGridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.salesPersonBindingSource)).EndInit();
@@ -155,7 +155,7 @@
         private DevExpress.XtraPivotGrid.PivotGridControl pivotGridControl1;
         private nwindDataSet nwindDataSet;
         private System.Windows.Forms.BindingSource salesPersonBindingSource;
-        private StandaloneCustForm.nwindDataSetTableAdapters.SalesPersonTableAdapter salesPersonTableAdapter;
+        private StandaloneCustomForm.nwindDataSetTableAdapters.SalesPersonTableAdapter salesPersonTableAdapter;
         private DevExpress.XtraPivotGrid.PivotGridField fieldCountry1;
         private DevExpress.XtraPivotGrid.PivotGridField fieldProductName1;
         private DevExpress.XtraPivotGrid.PivotGridField fieldCategoryName1;

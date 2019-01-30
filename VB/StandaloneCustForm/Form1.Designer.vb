@@ -1,6 +1,4 @@
-﻿Imports Microsoft.VisualBasic
-Imports System
-Namespace StandaloneCustForm
+﻿Namespace StandaloneCustomForm
 	Partial Public Class Form1
 		''' <summary>
 		''' Required designer variable.
@@ -28,18 +26,18 @@ Namespace StandaloneCustForm
 			Me.components = New System.ComponentModel.Container()
 			Me.pivotGridControl1 = New DevExpress.XtraPivotGrid.PivotGridControl()
 			Me.salesPersonBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.nwindDataSet = New StandaloneCustForm.nwindDataSet()
+			Me.nwindDataSet = New StandaloneCustomForm.nwindDataSet()
 			Me.fieldCountry1 = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.fieldProductName1 = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.fieldCategoryName1 = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.fieldExtendedPrice1 = New DevExpress.XtraPivotGrid.PivotGridField()
 			Me.fieldSalesPerson1 = New DevExpress.XtraPivotGrid.PivotGridField()
-			Me.salesPersonTableAdapter = New StandaloneCustForm.nwindDataSetTableAdapters.SalesPersonTableAdapter()
+			Me.salesPersonTableAdapter = New StandaloneCustomForm.nwindDataSetTableAdapters.SalesPersonTableAdapter()
 			Me.splitContainerControl1 = New DevExpress.XtraEditors.SplitContainerControl()
-			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-			CType(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+			DirectCast(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.splitContainerControl1.SuspendLayout()
 			Me.SuspendLayout()
 			' 
@@ -54,7 +52,8 @@ Namespace StandaloneCustForm
 			Me.pivotGridControl1.Name = "pivotGridControl1"
 			Me.pivotGridControl1.Size = New System.Drawing.Size(471, 390)
 			Me.pivotGridControl1.TabIndex = 0
-'			Me.pivotGridControl1.ShowingCustomizationForm += New DevExpress.XtraPivotGrid.CustomizationFormShowingEventHandler(Me.pivotGridControl1_ShowingCustomizationForm);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.pivotGridControl1.ShowingCustomizationForm += new DevExpress.XtraPivotGrid.CustomizationFormShowingEventHandler(this.pivotGridControl1_ShowingCustomizationForm);
 			' 
 			' salesPersonBindingSource
 			' 
@@ -112,7 +111,7 @@ Namespace StandaloneCustForm
 			' 
 			' splitContainerControl1
 			' 
-			Me.splitContainerControl1.Appearance.BackColor = System.Drawing.Color.FromArgb((CInt(Fix((CByte(207))))), (CInt(Fix((CByte(221))))), (CInt(Fix((CByte(238))))))
+			Me.splitContainerControl1.Appearance.BackColor = System.Drawing.Color.FromArgb((CInt((CByte(207)))), (CInt((CByte(221)))), (CInt((CByte(238)))))
 			Me.splitContainerControl1.Appearance.Options.UseBackColor = True
 			Me.splitContainerControl1.Dock = System.Windows.Forms.DockStyle.Fill
 			Me.splitContainerControl1.FixedPanel = DevExpress.XtraEditors.SplitFixedPanel.Panel2
@@ -136,12 +135,13 @@ Namespace StandaloneCustForm
 			Me.ClientSize = New System.Drawing.Size(683, 390)
 			Me.Controls.Add(Me.splitContainerControl1)
 			Me.Name = "Form1"
-			Me.Text = "Form1"
-'			Me.Load += New System.EventHandler(Me.Form1_Load);
-			CType(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-			CType(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).EndInit()
+			Me.Text = "StandaloneCustomForm"
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.Load += new System.EventHandler(this.Form1_Load);
+			DirectCast(Me.pivotGridControl1, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.salesPersonBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.nwindDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+			DirectCast(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.splitContainerControl1.ResumeLayout(False)
 			Me.ResumeLayout(False)
 
@@ -152,7 +152,7 @@ Namespace StandaloneCustForm
 		Private WithEvents pivotGridControl1 As DevExpress.XtraPivotGrid.PivotGridControl
 		Private nwindDataSet As nwindDataSet
 		Private salesPersonBindingSource As System.Windows.Forms.BindingSource
-		Private salesPersonTableAdapter As StandaloneCustForm.nwindDataSetTableAdapters.SalesPersonTableAdapter
+		Private salesPersonTableAdapter As StandaloneCustomForm.nwindDataSetTableAdapters.SalesPersonTableAdapter
 		Private fieldCountry1 As DevExpress.XtraPivotGrid.PivotGridField
 		Private fieldProductName1 As DevExpress.XtraPivotGrid.PivotGridField
 		Private fieldCategoryName1 As DevExpress.XtraPivotGrid.PivotGridField

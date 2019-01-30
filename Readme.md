@@ -6,9 +6,12 @@
 # How to display the Customization Form near the PivotGridControl
 
 
-<p>This example demonstrates how to display the Customization Form near the PivotGridControl.</p><p>In this example, the <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraEditorsSplitContainerControlMembersTopicAll"><u>SplitContainerControl</u></a> is used as a parent container for the PivotGridControl and Customization Form. The <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraPivotGridPivotGridControl_ShowingCustomizationFormtopic"><u>ShowingCustomizationForm</u></a> event is handled to change the default behaviour of the Customization Form. The <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraPivotGridCustomizationFormShowingEventArgs_ParentControltopic"><u>ParentControl</u></a> property is used to set <a href="ms-help://MS.VSCC.v90/MS.MSDNQTR.v90.en/fxref_system.windows.forms/html/c811df29-0a1f-2637-ca2f-c3a69af08a03.htm"><u>SplitContainer.Panel2</u></a> as an owner of the Customization Form. The Customization Form is docked to the parent container using the <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraBarsCreateCustomizationFormEventArgs_CustomizationFormtopic"><u>CustomizationForm</u></a> property.<br />
-The style of the Customization Form is set using the <a href="http://documentation.devexpress.com/#CoreLibraries/DevExpressXtraPivotGridPivotGridOptionsCustomization_CustomizationFormStyletopic"><u>CustomizationFormStyle</u></a> property. The <a href="http://documentation.devexpress.com/#WindowsForms/DevExpressXtraPivotGridPivotGridControl_FieldsCustomizationtopic"><u>FieldsCustomization</u></a> method is used to invoke the Customization Form. </p>
+This example demonstrates how to display the Customization Form near the PivotGridControl.
 
-<br/>
+When displayed, the form is located in the [SplitContainerControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraEditors.SplitContainerControl) - a parent container for the PivotGridControl and Customization Form. To specify the SplitContainer's panel as the Customization Form's owner, handle the  [PivotGridControl.ShowingCustomizationForm](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.ShowingCustomizationForm) event and use the [CustomizationFormShowingEventArgs.ParentControl](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.CustomizationFormShowingEventArgs.ParentControl) property. 
 
+The form's appearance is specified with the [PivotGridOptionsCustomization.CustomizationFormStyle](https://docs.devexpress.com/CoreLibraries/DevExpress.XtraPivotGrid.PivotGridOptionsCustomization.CustomizationFormStyle) property.
 
+Call the [PivotGridControl.FieldsCustomization](https://docs.devexpress.com/WindowsForms/DevExpress.XtraPivotGrid.PivotGridControl.FieldsCustomization.overloads) method to show the form.
+
+![screenshot](https://github.com/DevExpress-Examples/how-to-display-the-customization-form-near-the-pivotgridcontrol-e4572/blob/13.1.4%2B/images/screenshot.png)
